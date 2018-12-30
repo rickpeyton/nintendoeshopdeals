@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+
+Resources:
+  nintendoLambdaFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: nintendoLambda
+      Handler: lambda.handler
+      Runtime: ruby2.5
+      CodeUri: "./"
+      MemorySize: 128
+      Timeout: 5
+      Events:
+        nintendoLambdaApi:
+            Type: Api
+            Properties:
+                Path: /
+                Method: get
+                RestApiId: !Ref nintendoLambdaApi
+  nintendoLambdaApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: nintendoLambdaApi
+      StageName: Prod
+      DefinitionBody:
+        swagger: '2.0'
+        basePath: '/Prod'
+        info:
+          title: !Ref AWS::StackName
+        paths:
+          /update:
+            get:
+              responses: {}
+              x-amazon-apigateway-integration:
+                uri:
+                  !Sub 'arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${nintendoLambdaFunction.Arn}/invocations'
+                passthroughBehavior: "when_no_match"
+                httpMethod: POST
+                type: "aws_proxy"
+  ConfigLambdaPermission:
+    Type: "AWS::Lambda::Permission"
+    DependsOn:
+    - nintendoLambdaFunction
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref nintendoLambdaFunction
+      Principal: apigateway.amazonaws.com
+Outputs:
+  nintendoLambdaAppUrl:
+    Description: App endpoint URL
+    Value: !Sub "https://${nintendoLambdaApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
