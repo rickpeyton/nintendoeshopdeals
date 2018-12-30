@@ -8,6 +8,9 @@ Resources:
       FunctionName: nintendoLambda
       Handler: function.handler
       Runtime: ruby2.5
+      Policies:
+        - DynamoDBCrudPolicy:
+          TableName: !Ref NintendoTable
       CodeUri: "./"
       MemorySize: 128
       Timeout: 5
@@ -46,6 +49,16 @@ Resources:
       Action: lambda:InvokeFunction
       FunctionName: !Ref nintendoLambdaFunction
       Principal: apigateway.amazonaws.com
+  NintendoTable:
+    Type: AWS::Serverless::SimpleTable
+    Properties:
+      TableName: NintendoTable
+      PrimaryKey: 
+        Name: id
+        Type: String
+      ProvisionedThroughput: 
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
 Outputs:
   nintendoLambdaAppUrl:
     Description: App endpoint URL
