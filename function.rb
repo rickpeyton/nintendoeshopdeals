@@ -1,3 +1,9 @@
+require "logger"
+
+$logger = Logger.new(STDOUT)
+
 def handler(event:, context:)
-  "got here"
+  $logger.info("EVENT: #{event.inspect}")
+  
+  { statusCode: 200, body: {} }
 end

@@ -100,4 +100,7 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+  config.before(:each) do
+    allow_any_instance_of(Logger).to receive(:info).and_return(nil)
+  end
 end
