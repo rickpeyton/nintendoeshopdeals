@@ -5,6 +5,8 @@ RSpec.describe NintendoEshop::Game do
 
   describe ".list" do
     it "returns a collection of games" do
+      stub_fetch_games_list
+
       result = described_class.list(limit: 40, offset: 0)
 
       expect(result.first.nsid).to eq "70010000012332"

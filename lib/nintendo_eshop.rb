@@ -1,5 +1,6 @@
-require "nintendo_eshop/game"
 require "nintendo_eshop/http_client"
+
+require "nintendo_eshop/game"
 
 begin
   require "pry"
