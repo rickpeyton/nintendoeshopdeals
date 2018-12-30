@@ -6,7 +6,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       FunctionName: nintendoLambda
-      Handler: lambda.handler
+      Handler: function.handler
       Runtime: ruby2.5
       CodeUri: "./"
       MemorySize: 128
