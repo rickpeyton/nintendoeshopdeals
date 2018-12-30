@@ -1,0 +1,986 @@
+---
+filter:
+  free_start:
+    total: 5
+  categories:
+    category:
+    - name: action_adventure
+      total: 507
+    - name: application
+      total: 0
+    - name: first_person
+      total: 69
+    - name: party
+      total: 77
+    - name: role_playing
+      total: 110
+    - name: music_fitness
+      total: 23
+    - name: education
+      total: 18
+    - name: puzzle_strategy
+      total: 169
+    - name: simulation
+      total: 70
+    - name: sports_racing
+      total: 83
+    total: 1293
+  prices:
+    price:
+    - name: '4.99'
+      total: 147
+    - name: '9.99'
+      total: 272
+    - name: '19.99'
+      total: 186
+    - name: '39.99'
+      total: 84
+    - name: 40_plus
+      total: 48
+    total: 737
+  nso:
+    total: 80
+  availabilities:
+    availability:
+    - name: now
+      total: 749
+    - name: new
+      total: 15
+    - name: soon
+      total: 0
+    - name: prepurchase
+      total: 0
+    total: 764
+  sale:
+    total: 270
+  number_of_players:
+    number_of_players:
+    - name: 1
+      total: 745
+    - name: 2
+      total: 362
+    - name: 3
+      total: 172
+    - name: 4
+      total: 170
+    total: 1449
+  how_to_play:
+    how_to_play:
+    - name: amiibo
+      total: 17
+    - name: off_tv
+      total: 2
+    - name: online
+      total: 0
+    total: 19
+  franchises:
+    franchise:
+    - name: animal_crossing
+      total: 0
+    - name: mario
+      total: 14
+    - name: zelda
+      total: 3
+    - name: donkey_kong
+      total: 1
+    - name: metroid
+      total: 0
+    - name: pokemon
+      total: 3
+    - name: mii
+      total: 1
+    - name: kirby
+      total: 2
+    total: 24
+  dlc:
+    total: 62
+  publishers:
+    publisher:
+    - name: nintendo
+      total: 25
+    - name: others
+      total: 718
+    total: 743
+  vcs:
+    vc:
+    - name: nes
+      total: 0
+    - name: snes
+      total: 0
+    - name: gb
+      total: 0
+    - name: gbc
+      total: 0
+    - name: n64
+      total: 0
+    - name: gba
+      total: 0
+    - name: ds
+      total: 0
+    - name: other
+      total: 0
+    total: 0
+  esrbs:
+    esrb:
+    - name: everyone
+      total: 273
+    - name: early_childhood
+      total: 0
+    - name: everyone_10_plus
+      total: 213
+    - name: teen
+      total: 208
+    - name: mature
+      total: 55
+    - name: pending
+      total: 0
+    total: 749
+  shop:
+    shop:
+    - name: retail
+      total: 67
+    - name: ncom
+      total: 749
+    total: 816
+  demo:
+    total: 68
+  total: 749
+  systems:
+    system:
+    - name: ds
+      total: 0
+    - name: 3ds
+      total: 0
+    - name: wii
+      total: 0
+    - name: wii_u
+      total: 0
+    - name: ios
+      total: 0
+    - name: android
+      total: 0
+    - name: ios_android
+      total: 0
+    - name: switch
+      total: 749
+    total: 749
+games:
+  offset: 0
+  game:
+  - categories:
+      category:
+      - Action
+      - Fighting
+      - Multiplayer
+    slug: super-smash-bros-switch
+    buyitnow: 'true'
+    release_date: Dec 7, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Super Smash Bros. Ultimate
+    system: Nintendo Switch
+    id: XYfGbmHybciAx7wE3EiKIu8c32ip0ULk
+    ca_price: '79.99'
+    number_of_players: up to 8 players
+    nsuid: '70010000012332'
+    video_link: RqOXN1ZzE6xQzyiDXU2ChMrmEAACGHLT
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/NhJKOajUMaYvsmA3U_t7yopYGn9Ngg68/AX0pHGUTlEwA-EOlpxZF15lslYF-WRp6.png
+    game_code: HACNAAABA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Fighting
+      - Multiplayer
+    slug: super-smash-bros-ultimate-special-edition-switch
+    buyitnow: 'true'
+    release_date: Dec 7, 2018
+    digitaldownload: 'false'
+    nso: 'true'
+    free_to_start: 'false'
+    title: Super Smash Bros. Ultimate Special Edition
+    system: Nintendo Switch
+    id: Tu6zfQ9JsGj1YN_6okuKVTBwbe2VSj4J
+    ca_price: '179.99'
+    number_of_players: up to 8 players
+    video_link: RqOXN1ZzE6xQzyiDXU2ChMrmEAACGHLT
+    eshop_price: '139.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/m62L4w67ZmeVBQ5tJy9bkZllF46s8qrS/biP0ebud0TMSqptYRE-lD9AcCP_tuXUa.png
+    game_code: HACRAAAB1
+    buyonline: 'true'
+  - categories:
+      category:
+      - Adventure
+      - Role-Playing
+      - Multiplayer
+    slug: pokemon-lets-go-eevee-switch
+    buyitnow: 'true'
+    release_date: Nov 16, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: 'Pokémon: Let''s Go, Eevee!'
+    system: Nintendo Switch
+    id: KefRP5_7CRw9kp8hNS57ApyKEXrjKgFn
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000450'
+    video_link: hldWRwZzE6-qvFZi_mi6Xt69lA4uUYFT
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/CSOAMj2W9rveoiuTcGo-hzGAIeGTo5Kw/PuhHRfNGbPs3MCRRIsm6WjrEsnn0DZAg.png
+    game_code: HACNADW3A
+    buyonline: 'true'
+  - categories:
+      category:
+      - Adventure
+      - Role-Playing
+      - Multiplayer
+    slug: pokemon-lets-go-pikachu-switch
+    buyitnow: 'true'
+    release_date: Nov 16, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: 'Pokémon: Let''s Go, Pikachu!'
+    system: Nintendo Switch
+    id: i2MD5wC29vqM4uPYh6Tw-oKYojmuvsWg
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000447'
+    video_link: hldWRwZzE6-qvFZi_mi6Xt69lA4uUYFT
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/vt7les7qOfqmuiYlgQqE1KvoBGcDYwfW/IEqiKeiJ-27z1heGl5Wc34Nmhp_T_3aW.png
+    game_code: HACNADW2A
+    buyonline: 'true'
+  - categories:
+      category: Role-Playing
+    slug: the-world-ends-with-you-final-remix-switch
+    buyitnow: 'true'
+    release_date: Oct 12, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: 'The World Ends with You: Final Remix'
+    system: Nintendo Switch
+    id: xL-GmqwRSYUbL06mjHYadXMclirITbp4
+    ca_price: '64.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000011853'
+    video_link: V4YzFpZzE6kgldsbTNoBa2kPLQg2w0zZ
+    eshop_price: '49.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/m76--vlW3CV8d1SdNb-ja9UozRT3vRoU/0F0L1MYpJ4D7dp7OEQREUgGHNUekAwGH.png
+    game_code: HACNAM78B
+    buyonline: 'true'
+  - categories:
+      category:
+      - Party
+      - Multiplayer
+    slug: super-mario-party-switch
+    buyitnow: 'true'
+    release_date: Oct 5, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Super Mario Party
+    system: Nintendo Switch
+    id: 3bZRWi4rHAmW8cBw4-ynYNHKB7jxb5WL
+    ca_price: '79.99'
+    number_of_players: up to 4 players
+    nsuid: '70010000014158'
+    video_link: N3N2FuZzE65ZWkXF8rYkNRzhPuq4MU51
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/gYEaBiQz-u_3jK6iK7EbMt-BufVWtGD_/jS291O2H_rvq8VUtytP0MetXAUi1aZGn.png
+    game_code: HACNADFJA
+    buyonline: 'true'
+  - categories:
+      category: Sports
+    slug: fifa-19-switch
+    buyitnow: 'true'
+    release_date: Sep 28, 2018
+    digitaldownload: 'false'
+    nso: 'true'
+    free_to_start: 'false'
+    title: FIFA 19
+    system: Nintendo Switch
+    id: P12BARdhaQfkQmvL14dPYYtA6o5_zQWt
+    ca_price: '79.99'
+    number_of_players: up to 8 players
+    nsuid: '70010000005382'
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/1si-2KfiqdrbuTHh5H0ap2ajCJWd-Ekg.png
+    game_code: HACNAMQ2A
+    buyonline: 'true'
+    sale_price: '29.99'
+  - categories:
+      category:
+      - Fighting
+      - Action
+    slug: snk-heroines-tag-team-frenzy-switch
+    buyitnow: 'true'
+    release_date: Sep 7, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: SNK HEROINES ~Tag Team Frenzy~
+    system: Nintendo Switch
+    id: RXt7zYMA3XXLux_rBlQsJWAqaI97gGlb
+    ca_price: '64.99'
+    number_of_players: up to 8 players
+    nsuid: '70010000010090'
+    video_link: JnbnQ3ZjE6KHr6pi213k-9WxAoo5HU-4
+    eshop_price: '49.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/fwMaXJEYbM91iaEsiwxSW1tptBT5DyMS/I9dvfqekTngXwSyqbMS80LLaJwNOcFw-.png
+    game_code: HACNAPVSB
+    buyonline: 'true'
+  - categories:
+      category: Adventure
+    slug: okami-hd-switch
+    buyitnow: 'false'
+    release_date: Aug 9, 2018
+    digitaldownload: 'false'
+    nso: 'false'
+    free_to_start: 'false'
+    title: OKAMI HD
+    system: Nintendo Switch
+    id: EsgD4ve6zbEnteepysNbIKuRFjBvjtdt
+    ca_price: '24.99'
+    number_of_players: 1 player
+    nsuid: '70010000006415'
+    eshop_price: '19.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/SQJ1zkVbiZwg1_katy638zbVwNrWq5a7/pfLW__ouyyknYncM8vSh0FBvJPyL6XnN.png
+    game_code: HACNAM7SB
+    buyonline: 'true'
+    sale_price: '14.99'
+  - categories:
+      category:
+      - Strategy
+      - Party
+      - Communication
+      - Simulation
+    slug: overcooked-2-switch
+    buyitnow: 'true'
+    release_date: Aug 7, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Overcooked! 2
+    system: Nintendo Switch
+    id: bMo0R6zC5D5ewf5wTc424zc7RQnDFSIp
+    ca_price: '27.99'
+    number_of_players: up to 4 players
+    nsuid: '70010000003402'
+    video_link: B4cXR1ZzE6AjTtmG7SkIxOLCIznltz_k
+    eshop_price: '24.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/UOgI6YtmcMZZNkBQHAIKjzMsXMXNsTUt/1F_uIpj98hMY_Kke4TlzsyZr7UIEoJ6J.png
+    game_code: HACNAKXEA
+    buyonline: 'true'
+    sale_price: '18.74'
+  - categories:
+      category:
+      - First Person
+      - Action
+      - Adventure
+    slug: wolfenstein-ii-the-new-colossus-switch
+    buyitnow: 'true'
+    release_date: Jun 29, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: 'Wolfenstein II: The New Colossus'
+    system: Nintendo Switch
+    id: RX3RAfDdvgnjGbPBunPzZ-OHGPJViicE
+    ca_price: '79.99'
+    number_of_players: 1 player
+    nsuid: '70010000005065'
+    video_link: E4cHk0ZjE6dOJGRSZg3-jGVAd5C3luBj
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/VNyVj_zZlMtmPvTEwkvnipCH6Yft9Of7/Mes9bLY1FaRfqUX_h5Sn4KGXP_bV9O2c.png
+    game_code: HACNAMKMA
+    buyonline: 'true'
+  - categories:
+      category: Sports
+    slug: mario-tennis-aces-switch
+    buyitnow: 'true'
+    release_date: Jun 22, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Mario Tennis Aces
+    system: Nintendo Switch
+    id: v0Ya5Z9XhvpbgBP5g2iNousChEol7JG4
+    number_of_players: up to 4 players
+    nsuid: '70010000003889'
+    video_link: R4ZG9uZjE60InrJG9DGmgU4kdRmN0iBC
+    front_box_art: https://media.nintendo.com/nintendo/bin/0CnueRP5knJkZXOgCmH4RQuNR-1trpmh/jhK5UfeksE2_bwXbaMuq31tKJMZxde0e.png
+    game_code: HACNALERA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Adventure
+      - Fighting
+    slug: hyrule-warriors-switch
+    buyitnow: 'true'
+    release_date: May 18, 2018
+    digitaldownload: 'true'
+    free_to_start: 'false'
+    nso: 'false'
+    title: 'Hyrule Warriors: Definitive Edition'
+    system: Nintendo Switch
+    id: JgKD3-ld9uAIhni6b7bT4xMZn7rtmGd6
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000006023'
+    video_link: E0d3A5ZTE6YSkMBaphvSkgItkYGWrT8V
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/SF6LoN-xgX1iT617eWfBrNcWH6RQXnSh/I_IRYaBzJ61i-3hnYt_k7hVxHtqGmM_w.png
+    game_code: HACNAKUTB
+    buyonline: 'true'
+  - categories:
+      category:
+      - Platformer
+      - Action
+    slug: donkey-kong-country-tropical-freeze-switch
+    buyitnow: 'true'
+    release_date: May 4, 2018
+    digitaldownload: 'true'
+    free_to_start: 'false'
+    nso: 'false'
+    title: 'Donkey Kong Country: Tropical Freeze'
+    system: Nintendo Switch
+    id: mbdg3ytoEgG2wjnBVp0PAyVDikagbLH-
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000001339'
+    video_link: dkMGVhZjE6sF26qjbocCAL_XZ6XD0fOl
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/wcfCyAd7t2N78FkGvEwCOGzVFBNQRbhy/AvG-_d4kEvEplp0mJoUew8IAg71YQveM.png
+    game_code: HACNAFWTA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Platformer
+    slug: kirby-star-allies-switch
+    buyitnow: 'true'
+    release_date: Mar 16, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Kirby Star Allies
+    system: Nintendo Switch
+    id: vutFRfuK2LH1jG_BUb9Qa7fmICtWrBc3
+    number_of_players: up to 4 players
+    nsuid: '70010000002365'
+    video_link: R3ZDRyZzE6Zj59hN_xV47KtMjRTtbwk0
+    front_box_art: https://media.nintendo.com/nintendo/bin/UkfHxHRJqBFa_g0kZAX0pPxi88OlpDJU/9vFfu_FAeX6Z7exumULKv5ZAfLiw99mH.png
+    game_code: HACNAH26A
+    buyonline: 'true'
+  - categories:
+      category: Action
+    slug: bayonetta-digital-version-switch
+    buyitnow: 'false'
+    release_date: Feb 16, 2018
+    digitaldownload: 'true'
+    nso: 'false'
+    free_to_start: 'false'
+    title: Bayonetta
+    system: Nintendo Switch
+    id: mcQvkIi0AD37XJ-Mg733BvMVDQguttGC
+    ca_price: '38.69'
+    number_of_players: 1 player
+    nsuid: '70010000001109'
+    eshop_price: '29.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/C_KILbcC9T1Wx99b3-SmqiI7tm_qJMan/kVDva-b_yjxhHtNkqBjAn8JJIL83gsPs.png
+    game_code: HACNAE99A
+    buyonline: 'true'
+  - categories:
+      category: Action
+    slug: bayonetta-2-digital-version-switch
+    buyitnow: 'false'
+    release_date: Feb 16, 2018
+    digitaldownload: 'true'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Bayonetta 2 - Digital Version
+    system: Nintendo Switch
+    id: B2kPd8b4mepJJlLsvoxs0KF8C5erGgA4
+    ca_price: '64.49'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000001107'
+    video_link: lvazJsZDE66uVqdmIGc17qtVxAjtSfa2
+    eshop_price: '49.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/VqS1MHa39vWet9g9Kx29b3ZMa15iut7c/NPONP0N_K6GyJH74DnCL2gMPkgD67EV4.png
+    game_code: HACNAE981
+    buyonline: 'true'
+  - categories:
+      category:
+      - Role-Playing
+      - Action
+      - Adventure
+    slug: dragon-quest-builders-switch
+    buyitnow: 'true'
+    release_date: Feb 9, 2018
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Dragon Quest Builders
+    system: Nintendo Switch
+    id: py0wX-tDMcc9twRUvS-6h32wwPT_y84Z
+    number_of_players: To be determined
+    nsuid: '70010000006801'
+    video_link: w3b2hhZTE6FSq5keZgl5QUsZNAK5czWO
+    front_box_art: https://media.nintendo.com/nintendo/bin/O2Mzi7x_OjL37wz9w6Pc_8CaDwduUksL/8eupby-iY5vMhwX43RqiuxQmq12vZDp4.png
+    game_code: HACNACXPB
+    buyonline: 'true'
+  - categories:
+      category: Role-Playing
+    slug: xenoblade-chronicles-2-switch
+    buyitnow: 'true'
+    release_date: Dec 1, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Xenoblade Chronicles 2
+    system: Nintendo Switch
+    id: Kwpr-WrkbCDpvOc85egwBFB4gvLbSiz1
+    ca_price: TBD
+    number_of_players: 1 player
+    nsuid: '70010000000707'
+    video_link: RqOGx2ZjE6GGJdB6seEbcDHo5chk39HZ
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/PqHlEWHNhL2mPNm6WE-ri95xMGxw-zzQ/0lslRCvuTZjKN2Sbt7Iu425Pcy6Rcef3.png
+    game_code: HACNADENB
+    buyonline: 'true'
+  - categories:
+      category:
+      - Adventure
+      - Strategy
+    slug: mario-rabbids-kingdom-battle-gold-edition-switch
+    buyitnow: 'false'
+    release_date: Nov 17, 2017
+    digitaldownload: 'false'
+    nso: 'false'
+    free_to_start: 'false'
+    title: Mario + Rabbids Kingdom Battle Gold Edition
+    system: Nintendo Switch
+    id: c0820NjIOvCpaf3lX5QbfWDrwuXCsjoH
+    ca_price: '109.99'
+    number_of_players: 2 players simultaneous
+    video_link: wyeGJmYzE6MSTVJIo41uElKf-Y5M45Ot
+    eshop_price: '79.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/D8LjBoYAh087rYIJ1AirMz3iuSV9w4-M/HiLnLMNn8hfL-DTPz_EiAbZPpR_ZFXoj.png
+    game_code: HACNBAANA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Role-Playing
+      - Action
+    slug: the-elder-scrolls-v-skyrim-switch
+    buyitnow: 'true'
+    release_date: Nov 17, 2017
+    digitaldownload: 'false'
+    nso: 'false'
+    free_to_start: 'false'
+    title: 'The Elder Scrolls V: Skyrim®'
+    system: Nintendo Switch
+    id: zpdsacIk98dtYPHHMeE_iviMiP1t4ZP6
+    ca_price: TBD
+    number_of_players: 1 player
+    nsuid: '70010000001369'
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/fIoMnlkj4A28w_OqbZBWDq28nh_yvhGg/oyR6VRElQlRwtfC006wiyfSaRbiE7ANV.png
+    game_code: HACNAF3CA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Platformer
+    slug: super-mario-odyssey-switch
+    buyitnow: 'true'
+    release_date: Oct 27, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Super Mario Odyssey
+    system: Nintendo Switch
+    id: fWmlUNmveycEsP2y5ez7JSVfV-cGjjz6
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000001130'
+    video_link: N4bnI4ZDE6JTPeMbUtX5zubMaD2ZKwDk
+    front_box_art: https://media.nintendo.com/nintendo/bin/SmENxSXqVepjMBF5NxYddvUr6gSfLeDn/qSG2l7_qvitLVncMwzncZbBoqANeYYL6.png
+    game_code: HACNAAACA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Role-Playing
+    slug: fire-emblem-warriors-switch
+    buyitnow: 'true'
+    release_date: Oct 20, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Fire Emblem Warriors
+    system: Nintendo Switch
+    id: 7bJdeHNH3hZ5f5E4C28QyZ6JpH-k2dqV
+    number_of_players: To be determined
+    nsuid: '70010000000600'
+    video_link: g2azJzYzE6BihFn-c_LRgB3ukPh32qvQ
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/hinkRjxGuHlz3nvFqgB1cr9PgzCmVdYy/akahDdWxWelTU8r9zhGGsI2lQcg4N_gG.png
+    game_code: HACNADXHB
+    buyonline: 'true'
+  - categories:
+      category: Sports
+    slug: ea-sports-fifa-18-switch
+    buyitnow: 'true'
+    release_date: Sep 29, 2017
+    digitaldownload: 'false'
+    nso: 'true'
+    free_to_start: 'false'
+    title: FIFA 18
+    system: Nintendo Switch
+    id: cDKYxwn7xxI_WRZLxx-PdWJfNLcg01Zp
+    ca_price: '79.99'
+    number_of_players: up to 8 players
+    nsuid: '70010000001208'
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/39tCf0daDTQAXeBnTfFEVGLfY3sBv6uV/Iniq8Ci27S2QXcDGqflMovjqRJrXREi9.png
+    game_code: HACNADCEA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Fighting
+      - Action
+    slug: pokken-tournament-dx-switch
+    buyitnow: 'true'
+    release_date: Sep 22, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Pokkén Tournament DX
+    system: Nintendo Switch
+    id: JzdyUU7cK_oM5qDnatzgA6ZkNY1ktiq3
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000001132'
+    video_link: 9qMHdqYzE61Nkqi_yrwej5hfIiyKNk3x
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/wxRJwmXXt7df9zGcEROSQD33nlKbzkph/Ig2d4FWNzGDyjiVR6Q9wFNEq1vZjskLy.png
+    game_code: HACNBAAYA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Adventure
+      - Strategy
+    slug: mario-rabbids-kingdom-battle-switch
+    buyitnow: 'true'
+    release_date: Aug 29, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Mario + Rabbids Kingdom Battle
+    system: Nintendo Switch
+    id: 5rFGrNSeiLOGUCYtOdC3SRCYXHmNDeiJ
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000819'
+    video_link: wyeGJmYzE6MSTVJIo41uElKf-Y5M45Ot
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/Lnsb7ENqfpMX95fHToQI8gzd_KGrMKUn/5vKqX-5S7OQGNj-W_3GRMZF5dfxZbTiB.png
+    game_code: HACNBAANA
+    buyonline: 'true'
+    sale_price: '19.79'
+  - categories:
+      category:
+      - Puzzle
+      - Strategy
+    slug: flip-wars-switch
+    buyitnow: 'false'
+    release_date: Aug 10, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Flip Wars
+    system: Nintendo Switch
+    id: hH-22THge3bRzZFS3tH30tyk2OT2k775
+    ca_price: '14.09'
+    number_of_players: up to 4 players
+    nsuid: '70010000000705'
+    video_link: 90ZHQ4YzE6ZBDxvAGVRWcUrdMAW-zJYl
+    eshop_price: '9.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/mUSAZzyls3BJSnJgYmy5dfNKWREwC5S7/2glTWmM2aQttDUM00jPytF8ucjE_Wmv_.png
+    game_code: HACNACYVB
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Multiplayer
+    slug: splatoon-2-switch
+    buyitnow: 'true'
+    release_date: Jul 21, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Splatoon 2
+    system: Nintendo Switch
+    id: qxGyfWbxoVkjmTlEaY_HVlaoNmHSvpLd
+    ca_price: '79.99'
+    number_of_players: up to 8 players
+    nsuid: '70010000000529'
+    video_link: 01bjhyYTE6M7_ukCMNMHiNVOYp4wZsll
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/cBNIA15Ow9AO6bz7R5UvkKquAFPnYgB5/YIzHu8j_UgKADdZMZG-0DCF5iri2Cmkb.png
+    game_code: HACPAAB6B
+    buyonline: 'true'
+  - categories:
+      category:
+      - Fighting
+      - Multiplayer
+      - Action
+    slug: arms-switch
+    buyitnow: 'true'
+    release_date: Jun 16, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: ARMS
+    system: Nintendo Switch
+    id: sZkPDN2pn3MnZyTcBG-51tvpfMbvMVt_
+    ca_price: '79.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000392'
+    video_link: hvbThyYTE6YbnYF-jY-FkRhdgO4w0oSj
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/7YvhwKG4OEry_GXzv3Ja5kkb0B5oyKO-/RZ5AZ67NZXvmQVXGyo1DLMhapddxJExh.png
+    game_code: HACNAABQA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Fighting
+    slug: ultra-street-fighter-2-the-final-challengers-switch
+    buyitnow: 'true'
+    release_date: May 26, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: 'Ultra Street Fighter II: The Final Challengers'
+    system: Nintendo Switch
+    id: gfldXkQ56YMY1DXXBfPCy4ydb0J9E_Py
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000185'
+    video_link: Rua21hOTE6tOH3ThE1oE6L4YHj3LMDWs
+    eshop_price: '39.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/pa-oiVe_mOnhyVoW0jY0zhclN1EofnJF/2cTJ_jXkYq44s9i93p5Q8AW8lrPfTAqg.png
+    game_code: HACNBABBE
+    buyonline: 'true'
+  - categories:
+      category:
+      - Adventure
+      - Action
+    slug: minecraft-nintendo-switch-edition-digital-version
+    buyitnow: 'false'
+    release_date: May 11, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: 'Minecraft: Nintendo Switch Edition - Digital Version'
+    system: Nintendo Switch
+    id: 9YoLbdod6hGGvKwUfMtmeAmxryH6UMb3
+    number_of_players: up to 8 players
+    nsuid: '70010000000311'
+    video_link: RuOHJtYjE6RRYQlLCUuaTbr5cUdQNGi5
+    eshop_price: '29.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/uX_nOYD4JKzg1UQJgKjFBhOX9Fj-WkON/mI9xlWEP4SrA7drzp1Uk96MR0PzNAJ2R.png
+    game_code: HACNAB3NA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Racing
+      - Multiplayer
+    slug: mario-kart-8-deluxe-switch
+    buyitnow: 'true'
+    release_date: Apr 28, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'true'
+    title: Mario Kart 8 Deluxe
+    system: Nintendo Switch
+    id: ySxBNOPhx0xWi1Zf7Lp1PZ08Mgd7Dvm-
+    number_of_players: up to 12 players
+    nsuid: '70010000000153'
+    video_link: h5cWI1YTE6gLmwBccTAauweUaH1pQsWV
+    front_box_art: https://media.nintendo.com/nintendo/bin/5ilkA0Fdb524PxC-MeU6u5xV1d_of7be/aRcKLbRChTkJ7FbNIBu3oLiGwJSeaUUT.png
+    game_code: HACNAABPA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Strategy
+      - Adventure
+      - RPG
+      - Arcade
+    slug: has-been-heroes-switch
+    buyitnow: 'true'
+    release_date: Mar 28, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    title: Has Been Heroes
+    system: Nintendo Switch
+    id: GV8SyCjanvJvyj2owvCUW--7BGy-IN46
+    ca_price: '24.99'
+    number_of_players: 1 player
+    nsuid: '70010000000171'
+    video_link: tmOTQ5OTE6O60fhIblVp0GD5EJVxKss5
+    eshop_price: '19.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/CJQCiAZKiO1kT9XBs9smjLPdiiW9onk1/HMUDpusMTH8ArztE2OVzmRUKaZmbTq3z.png
+    game_code: HACNABMKA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Adventure
+    slug: the-binding-of-isaac-afterbirth-plus-switch
+    buyitnow: 'true'
+    release_date: Mar 17, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    title: 'The Binding of Isaac: Afterbirth+'
+    system: Nintendo Switch
+    id: 6wQFWpk_MraPr9gIWi-BR7TVtuP1PAm8
+    ca_price: '49.99'
+    number_of_players: up to 4 players
+    nsuid: '70010000000076'
+    eshop_price: '39.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/BT5J80VlZ26vxZuge2Vu0RYuUM62uAkM/q9RT-pyPRP7_83iZTZlKbAKVitlTpuOA.png
+    game_code: HACNBAAZA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Action
+      - Adventure
+    slug: blaster-master-zero-switch
+    buyitnow: 'false'
+    release_date: Mar 9, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Blaster Master Zero
+    system: Nintendo Switch
+    id: Qe9cLX_MLMCs2ljYIBM-pfFJkRlaM4pz
+    ca_price: '12.49'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000041'
+    video_link: xidDl5OTE63aPSSvRQzISC_NKKXjyt1l
+    eshop_price: '9.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/Sxp3hNmSyw6OZgZENXFVIYY0pwr5iTVu/9Uod4iS_C2beG23RSEDGgEWs-LXE4wOt.png
+    game_code: HACNABETA
+    buyonline: 'true'
+  - categories:
+      category:
+      - Party
+      - Multiplayer
+      - Action
+    slug: 1-2-switch
+    buyitnow: 'true'
+    release_date: Mar 3, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    title: 1-2-Switch
+    system: Nintendo Switch
+    id: QY7EtPDIW1WGVWSEkQ7ZVLvCFvonU-Wl
+    ca_price: '64.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000141'
+    video_link: h1OTBqODE64B-g16PJeQj6tifbVKl_v8
+    eshop_price: '49.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/oiM2QlLg9frNJhSWvFGmi5NAvEAGlYVx/_3d_ldcR3G0YQl590uHXZ89Jmouu5aS9.png
+    game_code: HACPAACCA
+    buyonline: 'true'
+  - categories:
+      category: Music
+    slug: just-dance-2017-switch
+    buyitnow: 'true'
+    release_date: Mar 3, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    title: Just Dance 2017
+    system: Nintendo Switch
+    id: mLFtDS71nywNPlBZZJG47mANPT2AkJwj
+    number_of_players: up to 6 players
+    nsuid: '70010000000046'
+    video_link: sybjg3YTE63qw8kKlsUQVyd3qsyCLLx_
+    eshop_price: '59.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/Ek-HuXqjc6Tb0qD1pWGsuSP-mdTkE0O2/0uolyY2oKeZ_K5D-IIaPcVIphGr2dRQi.png
+    game_code: HACNBAAAA
+    buyonline: 'true'
+    sale_price: '19.99'
+  - categories:
+      category:
+      - Action
+      - Adventure
+      - Platformer
+    slug: shovel-knight-specter-of-torment-switch
+    buyitnow: 'false'
+    release_date: Mar 3, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    title: 'Shovel Knight: Specter of Torment'
+    system: Nintendo Switch
+    id: X0qcpsq1IEvjWg1xZjC_IrUhoxce52Yh
+    ca_price: '12.69'
+    number_of_players: 1 player
+    nsuid: '70010000000120'
+    eshop_price: '9.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/6kpVIHSOM378Xw-YjOKNGwLPTYCvdEHr/IKFZMoyvySW5pFBHeFAnMeNpL-TivNx1.png
+    game_code: HACNAB7NA
+    buyonline: 'true'
+    sale_price: '7.99'
+  - categories:
+      category:
+      - Action
+      - Adventure
+      - Platformer
+    slug: shovel-knight-treasure-trove-switch
+    buyitnow: 'false'
+    release_date: Mar 3, 2017
+    digitaldownload: 'false'
+    nso: 'false'
+    free_to_start: 'false'
+    title: 'Shovel Knight: Treasure Trove'
+    system: Nintendo Switch
+    id: D_war8HFHP-WGeaiSD8Fkk4nORSsJJQY
+    ca_price: '27.99'
+    number_of_players: 2 players simultaneous
+    nsuid: '70010000000121'
+    eshop_price: '24.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/bRCAdpTZn9PktGyUkL8bjiY4-C7lXfLy/tYG2R-3HOQK9-_UrMStv9GsnSXTIvL5F.png
+    game_code: HACNAB7PA
+    buyonline: 'true'
+    sale_price: '19.99'
+  - categories:
+      category:
+      - Action
+      - Puzzle
+      - Multiplayer
+    slug: snipperclips-switch
+    buyitnow: 'false'
+    release_date: Mar 3, 2017
+    digitaldownload: 'false'
+    free_to_start: 'false'
+    nso: 'false'
+    title: Snipperclips - Cut it out, together!
+    system: Nintendo Switch
+    id: iG6P_0slv8jhXhEmyIjecQNgGAgQdJYz
+    ca_price: '28.19'
+    number_of_players: up to 4 players
+    nsuid: '70010000000142'
+    video_link: I5dHM0YTE6vy7t_b2xDO8JOjFb9LX61J
+    eshop_price: '19.99'
+    front_box_art: https://media.nintendo.com/nintendo/bin/N8sCBwdyqfCzJLHudQvSjh0BCdwL7MWa/yvwgfJcBRYKvQWdUl3fx9A8TSWYZJRqs.png
+    game_code: HACNBAAWA
+    buyonline: 'true'
+  limit: 40

@@ -5,28 +5,23 @@ module NintendoEshop
     def self.list(limit: 40, offset: 0)
       url = "https://www.nintendo.com/json/content/get/filter/game?limit=#{limit}&offset=#{offset}&system=switch&availability=now&sort=featured&direction=des&shop=ncom"
       response = fetch(:get, url)
-      # parse_list_response(response)
-      [new]
+      NintendoEshop::Parser.games_list(response)
     end
 
-    def nsid
-      "70010000012332"
-    end
+    attr_reader :nsid, :title, :price, :image, :created_at
 
-    def title
-      "Super Smash Bros. Ultimate"
-    end
-
-    def price
-      5999
-    end
-
-    def image
-      "https://media.nintendo.com/nintendo/bin/vt7les7qOfqmuiYlgQqE1KvoBGcDYwfW/IEqiKeiJ-27z1heGl5Wc34Nmhp_T_3aW.png"
-    end
-
-    def created_at
-      1546137173
+    def initialize(
+      nsid:,
+      title:,
+      price:,
+      image:,
+      created_at:
+    )
+      @nsid = nsid
+      @title = title
+      @price = price
+      @image = image
+      @created_at = created_at
     end
   end
 end
