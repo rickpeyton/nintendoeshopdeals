@@ -14,6 +14,8 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+require "webmock/rspec"
+
 require_relative "../function"
 require_relative "../lib/nintendo_eshop"
 
