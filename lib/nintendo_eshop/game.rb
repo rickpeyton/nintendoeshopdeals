@@ -1,9 +1,13 @@
 module NintendoEshop
   class Game
     extend HttpClient
-    
+
     def self.list(limit: 40, offset: 0)
-      url = "https://www.nintendo.com/json/content/get/filter/game?limit=#{limit}&offset=#{offset}&system=switch&availability=now&sort=featured&direction=des&shop=ncom"
+      url = <<~NINTENDO_URL
+        https://www.nintendo.com/json/content/get/filter/game?limit=#{limit}
+        &offset=#{offset}&system=switch&availability=now&sort=featured
+        &direction=des&shop=ncom
+      NINTENDO_URL
       response = fetch(:get, url)
       NintendoEshop::Parser.games_list(response)
     end

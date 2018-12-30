@@ -1,9 +1,11 @@
 require "logger"
+require_relative "lib/nintendo_eshop"
 
-$logger = Logger.new(STDOUT)
+LOGGER = Logger.new(STDOUT)
 
 def handler(event:, context:)
-  $logger.info("EVENT: #{event.inspect}")
+  LOGGER.info("EVENT: #{event.inspect}")
+  LOGGER.info("EVENT: #{context.inspect}")
 
   case event["path"]
   when "/update"

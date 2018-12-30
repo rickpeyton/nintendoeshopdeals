@@ -1,6 +1,6 @@
 module NintendoEshop
   module Parser
-    def self.games_list(list)
+    def self.games_list(list) # rubocop:disable Metrics/MethodLength
       current_time = Time.now.to_i
       list.dig("games", "game").map do |game|
         sale_price = game["sale_price"]
