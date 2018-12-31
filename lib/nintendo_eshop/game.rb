@@ -12,16 +12,16 @@ module NintendoEshop
       NintendoEshop::Parser.games_list(response)
     end
 
-    attr_reader :nsid, :title, :price, :image, :created_at
+    attr_reader :id, :title, :price, :image, :created_at
 
     def initialize(
-      nsid:,
+      id:,
       title:,
       price:,
       image:,
       created_at:
     )
-      @nsid = nsid
+      @id = id
       @title = title
       @price = price
       @image = image

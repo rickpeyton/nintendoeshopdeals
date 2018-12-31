@@ -6,7 +6,7 @@ module NintendoEshop
         sale_price = game["sale_price"]
         price = sale_price.nil? ? game["eshop_price"] : sale_price
         NintendoEshop::Game.new(
-          nsid: game["nsuid"],
+          id: game["nsuid"],
           title: game["title"],
           price: (price.to_f * 100).to_i,
           image: game["front_box_art"],

@@ -9,7 +9,7 @@ RSpec.describe NintendoEshop::Game do
 
       result = described_class.list(limit: 40, offset: 0)
 
-      expect(result.first.nsid).to eq "70010000012332"
+      expect(result.first.id).to eq "70010000012332"
       expect(result.first.title).to eq "Super Smash Bros. Ultimate"
       expect(result.first.price).to eq 5999
       expect(result.first.image).to eq "https://media.nintendo.com/nintendo/bin/NhJKOajUMaYvsmA3U_t7yopYGn9Ngg68/AX0pHGUTlEwA-EOlpxZF15lslYF-WRp6.png"
